@@ -173,6 +173,10 @@ func (g *Grok) AddPatternsFromPath(path string) error {
 			l := scanner.Text()
 			if len(l) > 0 && l[0] != '#' {
 				names := strings.SplitN(l, " ", 2)
+				if len(names) != 2 {
+					continue
+				}
+
 				filePatterns[names[0]] = names[1]
 			}
 		}
