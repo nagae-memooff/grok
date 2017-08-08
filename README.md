@@ -1,4 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/vjeantet/grok?status.svg)](https://godoc.org/github.com/vjeantet/grok)
+[![GoDoc](https://godoc.org/github.com/nagae-memooff/grok?status.svg)](https://godoc.org/github.com/nagae-memooff/grok)
 [![Build Status](https://travis-ci.org/vjeantet/grok.svg)](https://travis-ci.org/vjeantet/grok)
 [![Coverage Status](https://coveralls.io/repos/vjeantet/grok/badge.png?branch=master)](https://coveralls.io/r/vjeantet/grok?branch=master)
 [![Go Report Card](http://goreportcard.com/badge/vjeantet/grok)](http:/goreportcard.com/report/vjeantet/grok)
@@ -12,12 +12,12 @@ A simple library to parse grok patterns with Go.
 Make sure you have a working Go environment.
 
 ```sh
-go get github.com/vjeantet/grok
+go get github.com/nagae-memooff/grok
 ```
 
 # Use in your project
 ```go
-import "github.com/vjeantet/grok"
+import "github.com/nagae-memooff/grok"
 ```
 
 # Usage
@@ -45,7 +45,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/vjeantet/grok"
+	"github.com/nagae-memooff/grok"
 )
 
 func main() {
@@ -94,7 +94,7 @@ package main
 import (
   "fmt"
 
-  "github.com/vjeantet/grok"
+  "github.com/nagae-memooff/grok"
 )
 
 func main() {

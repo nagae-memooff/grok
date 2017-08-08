@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/vjeantet/grok"
+	"github.com/nagae-memooff/grok"
 )
 
 func main() {
